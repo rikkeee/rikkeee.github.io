@@ -1,0 +1,52 @@
+@font-face{
+    font-family: klavika-bold;
+    font-weight: bold;
+    src:url("C:\Users\202311938\Downloads\Klavika\klavika-bold.otf") format("opentype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bluebox {
+    display: flex;
+    background-color: #3b5998;
+    height: 100;
+    align-items: center;
+    width: 100%;
+}
+
+.fblogo {
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.login{
+    color: white;
+    margin-left: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+textarea{
+    align-items: end;
+}
+.container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.loginbox{
+    display: flex;
+    margin: 10px;
+    margin-right: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 3px 3px 3px black;
+}
