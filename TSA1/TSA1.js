@@ -3,9 +3,13 @@ let resume = document.getElementById('resbody');
 let ctgr = document.getElementById('category');
 let pfp = document.getElementById('pfp');
 
+
 function redColor(){
+    sidebar.style.transition = "all 1s";
+    resume.style.transition = "all 1s";
+    pfp.style.transition = "all 1s";
     sidebar.style.backgroundColor = "maroon";
-    resbody.style.backgroundColor = "rgb(249, 154, 154)";
+    resume.style.backgroundColor = "rgb(249, 154, 154)";
     pfp.style.borderColor = "red";
     document.querySelectorAll('h4').forEach(red=>red.style.color = "rgb(249, 154, 154)");
     document.querySelectorAll('h4#fullname').forEach(red=>red.style.color = "rgb(80,14,14)");
@@ -15,8 +19,6 @@ function redColor(){
     document.querySelectorAll('h2#subs').forEach(red=>red.style.color = "rgb(80,14,14)");
     document.querySelectorAll('h3').forEach(red=>red.style.color = "rgb(164, 29, 29)"); 
     document.querySelectorAll('h5#deets').forEach(red=>red.style.color = "rgb(164, 29, 29)");
-
-
 }
 
 function bnw(){
@@ -32,6 +34,7 @@ function bnw(){
     document.querySelectorAll('h3').forEach(red=>red.style.color = "black"); 
     document.querySelectorAll('h5#deets').forEach(red=>red.style.color = "black");
 }
+
 function reset(){
     sidebar.style.backgroundColor = "rgb(22, 22, 84)";
     resbody.style.backgroundColor = "rgb(214, 237, 255)"
