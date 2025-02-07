@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: default;
+    overflow: hidden;
+    background-image: url(loveybg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: bisque;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hi,
+#pics,
+#slide1, #slide2, #slide3, #slide4, #slide5 {
+    padding: 50px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(225, 202, 190, 0.8);
+    height: 75%;
+    width: 85%;
+    scroll-margin: 100px;
+    outline: 15px dotted #957dad;
+}
+
+
+.picbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#content{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 20px;
+    height: 350px;
+    width: 70%;
+}
+
+#content::-webkit-scrollbar,
+#images::-webkit-scrollbar{
+    display: none;
+}
+
+
+#asiamix{
+    transition: 0.5s all ease;
+    height: 225px;
+    filter: sepia(100%);
+    transform: rotate(15deg);
+    margin-left: 100px;
+}
+
+#asiamix:hover{
+    transition: 0.5s all ease;
+    filter: sepia(0%) drop-shadow(4px 4px 10px black);
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-family: "Lexend", serif;
+    text-shadow: 0px 0px 50px #f89ebb;
+    transition: 0.5s all ease;
+}
+
+h1:hover{
+    transition: 0.5s all ease;
+    color: #bcd8ec;
+    text-shadow: 0px 0px 50px black;
+}
+
+
+.downbutton {
+    position: relative;
+    bottom: -30px;
+    /* margin-top: 100%; */
+    padding: 10px;
+    background-color: rgba(225, 228, 196, 0.8);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px;
+}
+
+.upbutton {
+    position: relative;
+    top: -30px;
+    /* margin-bottom: 100%; */
+    padding: 10px;
+    background-color: rgba(225, 228, 196, 0.8);
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+#msg {
+    margin-top: 30px;
+}
+
+.message {
+    font-family: "Lexend", serif;
+    font-weight: 600;
+    text-align: justify;
+
+    .main {
+        transition: 0.5s all ease;
+        font-size: 25px;
+    }
+    .main:hover{
+        cursor: default;
+        transition: 0.5s all ease;
+        text-shadow: 2px 2px 3px black;
+        color: #bcd8ec;
+    }
+}
+
+/* .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    flex: 50%;
+    padding: 0 4px;
+    height: 75%;
+}
+
+.column img{
+    width: 40%;
+    margin-top: 8px;
+    vertical-align: middle;
+} */
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 20px;
+    height: 350px;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+#first{
+    transition: 0.3s all ease;
+    padding: 3px;
+    height: 300px;
+    filter: blur(5px);
+}
+
+#first:hover{
+    transition: 0.3s all ease;
+    filter: blur(0px) drop-shadow(4px 4px 10px black);
+}
+#thumbnails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#moarr{
+    padding: 4px;
+    transition: 0.3s all ease;
+    filter: grayscale(100%);
+    height: 300px;
+}
+#moarr:hover{
+    transition: 0.3s all ease;
+    filter: grayscale(0%) drop-shadow(4px 4px 8px black);
+    transform: scale(1.05) rotate(5deg);
+}
+
+#cas{
+    transition: 0.3s all ease;
+    height: 300px;
+}
+#cas:hover{
+    transition: 0.3s all ease;
+    filter: drop-shadow(4px 4px 8px black);
+}
+
+#last{
+    transition: 0.3s all ease;
+    height: 350px;
+}
+#last2{
+    transition: 0.3s all ease;
+    height: 350px;
+}
+#last:hover{
+    transition: 0.3s all ease;
+    transform: scale(1.05) rotate(5deg);
+    filter: drop-shadow(4px 4px 8px #957dad);
+
+}
+#last2:hover{
+    transition: 0.3s all ease;
+    transform: scale(1.05) rotate(-5deg);
+    filter: drop-shadow(-4px 4px 8px #957dad);
+}
+
+
+
+
+
