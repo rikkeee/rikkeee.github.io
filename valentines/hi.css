@@ -43,6 +43,9 @@ body {
     outline: 15px dotted #957dad;
 }
 
+audio::-webkit-media-controls{
+    display:none;
+}
 
 .picbox{
     display: flex;
