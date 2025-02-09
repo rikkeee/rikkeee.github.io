@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d291bc;
+    border: 30px solid #957dad;
+}
+
+.buttons{
+    justify-self: center;
+}
+
+button{
+    padding: 10px;
+    border: 5px solid #ffdfd3;
+    border-radius: 10px;
+}
