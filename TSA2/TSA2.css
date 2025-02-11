@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#days {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+button {
+    transition: 0.5s all ease;
+    border-radius: 20px;
+    height: 70px;
+    width: 80%;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    box-shadow: 0px 0px 5px;
+}
+
+button:hover {
+    transition: 0.5s all ease;
+    height: 80px;
+    width: 85%;
+}
+
+#mon {
+    background-color: red;
+}
+
+#tue {
+    background-color: orange;
+}
+
+#wed {
+    background-color: yellow;
+}
+
+#thu {
+    background-color: green;
+}
+
+#fri {
+    background-color: blue;
+}
+
+#sat {
+    background-color: indigo;
+}
+
+#sun {
+    background-color: violet;
+}
+
+#boxarea {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    width: 60%;
+}
+
+#redbox {
+    position: absolute;
+    border: 10px solid red;
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    transform: translateY(-1000px);
+    transition: 1s all ease;
+}
+
+#orangebox {
+    position: absolute;
+    border: 10px solid orange;
+    background-color: orange;
+    height: 350px;
+    width: 350px;
+    transform: translateY(-1000px);
+    transition: 1s all ease;
+}
+
+#yellowbox {
+    position: absolute;
+    border: 10px solid yellow;
+    background-color: yellow;
+    height: 350px;
+    width: 350px;
+    transform: translateY(-1000px);
+    transition: 1s all ease;
+}
+
+#greenbox {
+    position: absolute;
+    border: 10px solid green;
+    background-color: green;
+    height: 350px;
+    width: 350px;
+    transform: translateY(-1000px);
+    transition: 1s all ease;
+}
+
+#bluebox {
+    position: absolute;
+    border: 10px solid blue;
+    background-color: blue;
+    height: 350px;
+    width: 350px;
+    transform: translateY(-1000px);
+    transition: 1s all ease;
+}
+
+#indigobox {
+    position: absolute;
+    border: 10px solid indigo;
+    background-color: indigo;
+    height: 350px;
+    width: 350px;
+    transform: translateY(-1000px);
+    transition: 1s all ease;
+}
+
+#violetbox {
+    position: absolute;
+    border: 10px solid violet;
+    background-color: violet;
+    height: 350px;
+    width: 350px;
+    transform: translateY(-1000px);
+    transition: 1s all ease;
+}
