@@ -59,5 +59,7 @@ function clearDisplay() {
 }
 
 function backspace(){
-
+currentInput = '';
+    let textarea = document.getElementById('display');
+    textarea.value = textarea.value.substring(0, textarea.value.length - 1);
 }
